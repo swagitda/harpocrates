@@ -9,7 +9,7 @@ mixin header-1(url, icon, h1, navigation, hook)
             h1
                 a(href=url class="logo")
                     if icon
-                        img: src=(icon)
+                        img(src=icon)
                     =h1
 
             nav(id="navigation" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement")
